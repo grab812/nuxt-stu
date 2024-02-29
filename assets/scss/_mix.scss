@@ -1,0 +1,20 @@
+@mixin mobile {
+  @media (min-width : #{$breakpoint-mobile}) and (max-width: #{$breakpoint-tablet}) {
+    @content;
+  }
+}
+@mixin landscape {
+  @media only screen and (max-width: 1023px) and (orientation: landscape) {
+    @content;
+  }
+}
+// @mixin tablet {
+//     @media (max-width: #{$breakpoint-desktop}){
+//         @content;
+//     }
+// }
+@mixin desktop {
+  @media (min-width : #{$breakpoint-desktop}) {
+    @content;
+  }
+}

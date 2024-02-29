@@ -1,0 +1,125 @@
+/*******************************************************************
+
+프로젝트 전체에 적용되는 변수에 대해 정의
+
+********************************************************************/
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
+$body-font-family: 'NanumSquare', sans-serif;
+$font-size: 16px;
+$font-4xl: 36px;
+$font-3xl: 32px;
+$font-2xl: 24px;
+$font-xl: 20px;
+$font-l: 18px;
+$font-m: 14px;
+$font-s: 12px;
+$font-xs: 11px;
+$font-2xs: 10px;
+
+$font-0: 0;
+$font-h1: 40px;
+$font-h2: 24px;
+$font-h3: 24px;
+$font-h4: 18px;
+
+$con-tlt: 50px;
+
+$font-normal: 400;
+$font-bold: 700;
+$font-bolder: 800;
+
+$lh-100: 100%;
+$lh-110: 110%;
+$lh-120: 120%;
+$lh-130: 130%;
+$lh-140: 140%;
+$lh-150: 150%;
+$lh-160: 160%;
+$lh-175: 175%;
+$lh-190: 190%;
+
+$border-radius: 12px;
+$border-radius-to: 0 0 12px 12px;
+$border-radius-to2: 0 0 20px 20px;
+$border-radius-bo: 12px 12px 0 0;
+$border-radius-bo2: 30px 30px 0 0;
+$border-radius-to-mo: 0 0 8px 8px;
+$border-radius-bo-mo: 8px 8px 0 0;
+$border-radius-to-mo2: 32px 32px 0 0;
+$border-radius4: 4px;
+$border-radius8: 8px;
+$border-radius10: 10px;
+$border-radius15: 15px;
+$border-radius16: 16px;
+$border-radius20: 20px;
+$border-radius24: 24px;
+$border-radius30: 30px;
+$border-radius40: 40px;
+
+// 컬러값
+$color-main: #00bdc8;
+$color-sub: #334455;
+$color-gray-1: #e9ebed;
+$color-gray-2: #eceff2;
+$color-gray-3: #dbdbdb;
+$color-gray-4: #97999b;
+$color-gray-5: #757575;
+$color-gray-6: #353535;
+$color-gray-7: #f4f4f4;
+$color-gray-8: #d9d9d9;
+
+$color-white: #fff;
+$color-black: #000;
+$color-red: #ef151e;
+$color-blue: #006ecd;
+$color-blue2: #384f9c;
+$color-green: #009c91;
+$color-green2: #54b89f;
+$color-orange: #ff8247;
+$color-yellow: #ff9700;
+$color-yellow2: #ffde47;
+$color-pink: #ffefef;
+$color-navy: #060329;
+$color-navy2: #16142e;
+
+$main-alpha80: rgba(0, 189, 200, 0.95);
+$color-white80: rgba(255, 255, 255, 0.8);
+$color-gray50: rgba(0, 121, 195, 0.05);
+$color-gray15: rgba(136, 230, 242, 0.15);
+
+//tv채널 색
+$color-tvn: #16142e;
+$color-tvnshow: #ffde47;
+$color-tvnsports: #88e6f2;
+$color-mnet: #cd004d;
+$color-movie: #7b28f5;
+$color-tving: #ff898c;
+$color-digital: #10af8d;
+$color-cjenm: #00bdc8;
+
+//공통 너비
+$breakpoint-mobile: 0px;
+$min-mobile-width: 360px;
+$breakpoint-tablet: 1023px;
+$breakpoint-desktop: 1024px;
+$desktop-width: 1280px;
+$full-width: 100%;
+$mo-full-width: 100vw;
+$mo-full-height: 100vh;
+
+//컨텐츠 너비
+$contents-width: 1120px;
+$lineup-width: 1320px;
+$slider-width: 1312px;
+$login-width: 552px;
+$join_wrapper: 640px;
+
+//텍스트 말줄임
+@mixin clamp-lines($lineCount) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lineCount;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+}

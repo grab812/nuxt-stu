@@ -1,0 +1,89 @@
+// reset
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+input,
+textarea,
+button {
+  border: none;
+  outline: none;
+  font-family: $body-font-family;
+  color: inherit;
+}
+input[type="password"] {
+  font-family: Arial, Helvetica, sans-serif;
+}
+button {
+  background: transparent;
+  cursor: pointer;
+}
+table {
+  padding: 0;
+  border: 0;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $body-font-family;
+  font-size: $font-size;
+  line-height: $lh-130;
+  font-weight: $font-normal;
+  word-break: keep-all;
+  letter-spacing: -0.9px;
+}
+body {
+  &.scrollhide {
+    overflow: hidden;
+  }
+}
+//font-size
+h1 {
+  font-size: $font-h1;
+  font-weight: $font-bold;
+  line-height: $lh-130;
+}
+h2 {
+  font-size: $font-h2;
+  font-weight: $font-bold;
+  line-height: $lh-130;
+}
+h3 {
+  font-size: $font-h3;
+  font-weight: $font-bold;
+  line-height: $lh-130;
+}
+h4 {
+  font-size: $font-h4;
+  font-weight: $font-bold;
+  line-height: $lh-130;
+}
