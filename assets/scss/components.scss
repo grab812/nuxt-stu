@@ -1,0 +1,66 @@
+// 좋아요버튼
+.action_icon {
+  padding: 0.25rem 0;
+  label {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: default;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 50%;
+    .icon_frame {
+      position: absolute;
+      left: -10%;
+      top: -10%;
+      width: 120%;
+      height: 120%;
+    }
+  }
+  .icon_data {
+    margin-top: 0.375rem;
+  }
+  .btn_reply {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+  }
+  .cmt_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .ic_comment {
+      display: block;
+      width: 20px;
+      height: 20px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      text-indent: -99999em;
+      vertical-align: top;
+      background-size: 100% auto;
+      background-color: transparent;
+      background-image: url(../images/ico_shorts_comment.png);
+      background-image: -webkit-image-set(
+        url(../images/ico_shorts_comment.png) 1x,
+        url(../images/ico_shorts_comment@2x.png) 2x
+      );
+    }
+  }
+}

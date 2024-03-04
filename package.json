@@ -17,11 +17,17 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.22.0",
+    "mobile-detect": "^1.4.5",
+    "pinia": "^2.1.7",
     "prettier": "^3.2.5",
     "vite-plugin-eslint": "^1.8.1"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }
